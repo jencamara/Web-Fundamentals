@@ -1,0 +1,42 @@
+.container{
+    width:800px;
+    height: auto;
+    background-color: whitesmoke;
+    margin:10px auto;
+    padding: 5px;
+}
+.title, .footer {
+    height: 50px;
+    background-color: none;
+    margin:5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+.line1{
+    height: 200px;
+    background-color: lightslategray;
+    margin: 5px;
+    padding: 5px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.line2{
+    height: 200px;
+    background-color: teal;
+    margin: 5px;
+    padding: 5px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.line3{
+    height: 200px;
+    background-color: plum;
+    margin: 5px;
+    padding: 5px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
