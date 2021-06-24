@@ -1,0 +1,40 @@
+.nav{
+    width: auto;
+    background-color: #343a40;
+    color: white;
+    font-family:sans-serif;
+    font-weight: normal;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+
+}
+.nav-title{
+    color: white;
+    justify-content:space-around;
+
+}
+.nav-links{
+    color: white;
+    list-style-type: none;
+    display:flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.active{
+    color: white;
+    margin: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.btn{
+    color: white;
+    background-color: #17a2b8;
+    margin: 10px;
+    display: flex;
+
+}
