@@ -1,0 +1,94 @@
+.container{
+    width: 1000px;
+}
+
+.navigation{
+    width: 1000px;
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+    font-weight: normal;
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+.title{
+    color: white;
+    margin: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+
+}
+.active{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    display:flex;
+    margin: 40px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #17a2b8;
+
+}
+.lcolumn{
+    height: 600px;
+    width: 550px;
+    background-color: gray;
+    margin: 10px;
+    padding:5px;
+}
+.profile {
+    height: 350px;
+    width: 500px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 5px;
+    display:flex;
+}
+#education {
+    height: 200px;
+    width: 500px;
+    background-color: purple;
+    margin: 10px;
+    padding: 5px;
+}
+.rcolumn {
+    height: 600px;
+    width: 250px;
+    background-color: gray;
+    margin: 10px;
+    padding:5px;
+}
+.request {
+    height: 225px;
+    width: 225px;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+#connections {
+    height: 325px;
+    width: 225px;
+    background-color: purple;
+    margin: 5px;
+    padding: 5px;
+}
+.row {
+    display: flex;
+    align-items: justify
+}
