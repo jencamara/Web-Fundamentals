@@ -51,7 +51,8 @@
     height: 600px;
     width: 550px;
     background-color: gray;
-    margin: 15px;
+    margin-left: 50px;
+    margin-top: 30px;
     padding:5px;
 }
 .profile {
@@ -73,22 +74,23 @@
     height: 600px;
     width: 250px;
     background-color: gray;
-    margin: 10px;
+    margin-right: 25px;
+    margin-top: 30px;
     padding:5px;
 }
 .request {
     height: 225px;
     width: 225px;
     background-color: yellow;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     display: flex;
 }
 #connections {
     height: 325px;
-    width: 225px;
+    width: 215px;
     background-color: purple;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
 }
 .row {
