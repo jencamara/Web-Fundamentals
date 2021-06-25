@@ -127,6 +127,14 @@
     background-color: #333333;
     height:50px;
     color: white;
-    margin-top: 5px;
-    margin-left: 5px;
+
 }
+
+.edu-header > h3{
+    margin-top:15px;
+    margin-left: 15px;
+
+}
+.edu-info > h2, p, h3{
+    margin: 20px, 0px;
+}   
