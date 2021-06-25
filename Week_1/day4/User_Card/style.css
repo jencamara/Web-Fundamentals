@@ -1,0 +1,61 @@
+.container{
+    width: 800px;
+    height: 300px;
+}
+.main{
+    width: 600px;
+    height: 300px;
+    margin: 0px, 0px; 
+    padding: 0px;
+    background-color:gray;
+
+}
+.bluetop{
+    width: 600px;
+    height: 75px;
+    padding: 5px,5px;
+    margin: 0px;
+    background-color:#17a2b8;
+
+}
+.bottom{
+    width: 590px;
+    height: 215px;
+    background-color: white;
+    margin: 2px;
+    padding: 3px;
+    color: black;
+
+}
+.pic1{
+    width: 75px;
+    height: 75px;
+    margin: 30px;
+
+}
+.pic2 {
+    width: 15px;
+    height:25px;
+    margin-left:20px;
+}
+.pic3 {
+    width: 15px;
+    height:15px;
+    margin-left:20px;
+}
+.line1,.line3{
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+
+}
+.line2{
+    align-items: center;
+    font-weight: normal;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-size: 10pt;
+    justify:flex-start;
+}
