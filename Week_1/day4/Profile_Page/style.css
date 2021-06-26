@@ -50,7 +50,7 @@
 .lcolumn{
     height: 600px;
     width: 550px;
-    background-color: gray;
+    background-color:white;
     margin-left: 50px;
     margin-top: 30px;
     padding:5px;
@@ -61,6 +61,7 @@
     background-color: white;
     margin: 10px;
     padding: 0px;
+    border:2px solid black;
 
 }
 #education {
@@ -69,11 +70,12 @@
     background-color: white;
     margin: 10px;
     padding: 0px;
+    border:2px solid black;
 }
 .rcolumn {
     height: 600px;
     width: 250px;
-    background-color: gray;
+    background-color:white;
     margin-right: 25px;
     margin-top: 30px;
     padding:5px;
@@ -84,14 +86,16 @@
     background-color: white;
     margin: 10px;
     padding: 0px;
+    border:2px solid black;
 
 }
 #connections {
     height: 325px;
-    width: 215px;
+    width: 225px;
     background-color: white;
     margin: 10px;
-    padding: 5px;
+    padding: 0px;
+    border:2px solid black;
 }
 .row {
     display: flex;
@@ -128,18 +132,19 @@
     background-color: #333333;
     height:50px;
     color: white;
-
-}
-
-.edu-header h3{
-    margin: 20px,0px;
-    padding: 5px, 0px
+    margin-top: 0px;
+    padding:0px;
+    
 
 }
 .edu-info > h2, p, h3{
-    margin-left: 25px;  
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
-.connectreq{
+
+.connectreq, .yourconnections{
     background-color: #333333;
     color: white;
     height:40px;
@@ -151,9 +156,15 @@
     border-radius: 50%;
     background-color: #ccc;
 }
-.toddavatar{
+.toddpic, .philpic, .adrienpic, .annapic, .alaynepic,.arrypic {
     height: 45px;
 }
+
 .reject, .accept{
     height: 30px;
+}
+.yourconbtn{
+    margin-left: 15px;
+    border-radius: 30%;
+    background-color: #ccc;
 }
