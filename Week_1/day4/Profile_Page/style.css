@@ -18,7 +18,7 @@
 .title{
     color: white;
     margin: 10px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
     align-items: center;
 
@@ -81,15 +81,15 @@
 .request {
     height: 225px;
     width: 225px;
-    background-color: yellow;
+    background-color: white;
     margin: 10px;
-    padding: 5px;
-    display: flex;
+    padding: 0px;
+
 }
 #connections {
     height: 325px;
     width: 215px;
-    background-color: purple;
+    background-color: white;
     margin: 10px;
     padding: 5px;
 }
@@ -108,6 +108,7 @@
     padding: 5px;
     margin-top: 30px;
     margin-left: 30px;
+    border-radius: 50%;
 
 }
 .location, .gear{
@@ -120,7 +121,7 @@
     padding: gray;
 }
 
-.profile-info > h1, h3, p{
+.profile-info h1, h3, p{
     margin: 20px, 0px
 }
 .edu-header{
@@ -130,11 +131,29 @@
 
 }
 
-.edu-header > h3{
-    margin-top:15px;
-    margin-left: 15px;
+.edu-header h3{
+    margin: 20px,0px;
+    padding: 5px, 0px
 
 }
 .edu-info > h2, p, h3{
-    margin: 20px, 0px;
-}   
+    margin-left: 25px;  
+}
+.connectreq{
+    background-color: #333333;
+    color: white;
+    height:40px;
+    align-items: center;
+    display: flex;
+}
+.connectbtn{
+    margin-left: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.toddavatar{
+    height: 45px;
+}
+.reject, .accept{
+    height: 30px;
+}
