@@ -21,21 +21,58 @@
     padding:5px;
 }
 .content1, #content2{
-    height: 275px;
+    height: 205px;
     width: 500px;
-    margin:10px;
+    margin: 10px;
     padding: 0px;
     border: 2px solid black;
+    font-family: sans-serif;
 }
 
 .rightcol{
-    height: 225px;
+    height: 160px;
     width:225px;
     background-color: white;
-    margin:10px;
-    padding: 0px;
+    margin-top:45px;
+    padding: 5px;
     border: 2px solid black;
+    font-family: sans-serif;
 }
 .row {
     display: flex;
+}
+.line1{
+    margin-left: 45px;
+}
+.line2{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: normal;
+
+}
+.line2 > h3{
+    font-style: italic;
+}
+.likebtn{
+    background-color: #ffd966;
+    color: black;
+    height:35px;
+    width:80px;
+    margin-left: 45px;
+}
+.motto{
+    margin-left: 10px;
+}
+.add-definition{
+    margin-left: 10px;
+    background-color: #93c47d;
+    height: 35px;
+    width: 200px;
+}
+.logbtn{
+    background-color: #2a78e4;
+    height:35px;
+    width:80px;
+    color: white;
 }
