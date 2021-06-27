@@ -9,16 +9,8 @@
     color: black;
     font-family: monospace;
     display: flex;
-    align-items: top;
-}
-.title{
-
-}
-.searchbar{
-
-}
-.logbtn{
-
+    align-items: center;
+    justify-content: space-around;
 }
 .leftcol{
     height:600px;
@@ -34,4 +26,16 @@
     margin:10px;
     padding: 0px;
     border: 2px solid black;
+}
+
+.rightcol{
+    height: 225px;
+    width:225px;
+    background-color: white;
+    margin:10px;
+    padding: 0px;
+    border: 2px solid black;
+}
+.row {
+    display: flex;
 }
