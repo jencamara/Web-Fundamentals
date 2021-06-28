@@ -1,0 +1,22 @@
+.container{
+    width: 700px;
+}
+.box{
+    width: 500px;
+    border: 2px solid black;
+}
+.firstline{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.likebtn{
+    width: 75px;
+    height: 30px;
+    background-color: #ffc107;
+}
+.secondline{
+    align-items: center;
+    margin-left: 50px;
+}
