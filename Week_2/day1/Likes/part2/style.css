@@ -35,6 +35,9 @@
     align-items: center;
     justify-content: space-around;
 }
+.line2{
+    margin-left: 60px;
+}
 
 .profileinfo{
     justify-content: center;
@@ -57,4 +60,9 @@
 }
 .row{
     display: flex;
+}
+.likebtn{
+    width:75px;
+    height:30px;
+    background-color: #ffc107;
 }
