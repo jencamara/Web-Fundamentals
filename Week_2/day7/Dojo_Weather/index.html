@@ -5,38 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css" class="text/css">
 </head>
 <body>
     <div class="container">
         <div class="navigationbar">
-            <h1 class="nav-title">Profile</h1>
+            <h1 class="nav-title">DojoWeather</h1>
             <ul class="nav-location">
-                <li><a href="#"class="active">Burbank</a></li>
-                <li><a href="#" class="active">Chicago</a></li>
-                <li><a href="#"class="active">Dallas</a></li>
+                <li><a href="#"class="location">Burbank</a></li>
+                <li><a href="#" class="location">Chicago</a></li>
+                <li><a href="#"class="location">Dallas</a></li>
             </ul>
         </div>
         <div class="sanjoseweather">
             <h2>San Jose</h2>
             <p> show temperature in <select name="temperature">
-                <option>C</option>
-                <option>F</option>
+                <option>ºC</option>
+                <option>ºF</option>
             </select>
         </div>
         <div class="weekforecast">
             <div class="column1">
-                <h3>Today</h3>
-                <img src="some-rain.png" alt="rain" class="rainimg">
+                <h2>Today</h2>
+                <img src="some_rain.png" alt="rain" class="rainimg">
+                <p>some rain</p>
+                <div class="highlows">
+                    <p class="hightemp">75º</p>
+                    <p class="lowtemp">65º</p>
+                </div>
             </div>
             <div class="column2">
-                <h3>Tomorrow</h3>
-                <img src="" alt="" class="scr">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="sunny" class="sunimg">
+                <p>some sun</p>
+                <div class="highlows">
+                    <p class="hightemp">80º</p>
+                    <p class="lowtemp">66º</p>
+                </div> 
             </div>
             <div class="column3">
-                <h3>Friday</h3>
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="cloudy" class="cloudimg">
+                <p>some clouds</p>
+                <div class="highlows">
+                    <p class="hightemp">69º</p>
+                    <p class="lowtemp">61º</p>
+                </div>
             </div>
             <div class="column4">
-                <h3>Saturday</h3>
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt="sunny" class="sunimg">
+                <p>some sun</p>
+                <div class="highlows">
+                    <p class="hightemp">78º</p>
+                    <p class="lowtemp">70º</p>
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,82 @@
+.container{
+    width: 1000px;
+}
+.navigationbar{
+    width:1000px;
+    background-color: #9fc5f8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.nav-title{
+    color: white;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+.nav-location{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-right: 100px;
+
+}
+.location{
+    color: white;
+    list-style-type: none;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 10px;
+    justify-content: space-between;
+}
+.sanjoseweather{
+    width: 800px;
+    color: black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.weekforecast{
+    width: 800px;
+    display: flex;
+    background-color: white;
+    margin-left: 100px;
+}
+.column1, .column2, .column3, .column4{
+    width: 180px;
+    height: 350px;
+    text-align: center;
+    background-color: #eeeeee;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    
+
+}
+.rainimg, .sunimg, .cloudimg{
+    height:150px;
+    border-radius: 50%;
+}
+.highlows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: top;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.hightemp{
+    color: #d13532;
+
+}
+.lowtemp{
+    color: #377fe4;
+}
