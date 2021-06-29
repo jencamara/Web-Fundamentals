@@ -3,8 +3,8 @@ var likenumberElement = document.querySelector("#likenumber");
 
 console.log(likenumberElement)
 
-function add1() {
+function plus1() {
     likenumber++;
-    likenumberElement.innerText = likenumber + "likes";
+    likenumberElement.innerText = likenumber + " likes";
     console.log(likenumber);
 }
