@@ -80,3 +80,12 @@
 .lowtemp{
     color: #377fe4;
 }
+#message{
+    width: inherit;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 80px;
+    color: black;
+    background-color: #eeeeee;
+    display: flex;
+}
