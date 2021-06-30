@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="navigationbar">
-            <div id="message">
+            <div id="message" onclick="hide(this)">
                 <h3 class="header">Stop! Cookie time</h3>
                 <div class="maininfo">
                     <img src="cookie.png" alt="cookie" class="cookieimg">
@@ -29,17 +29,21 @@
         </div>
         <div class="sanjoseweather">
             <h2>San Jose</h2>
-            <p> show temperature in <select name="temperature">
-                <option>ºC</option>
-                <option>ºF</option>
-            </select>
+            <p>show temperature in <select name="temperature">
+                <option class="ºC" onselect="degreesCel('degreesc')">ºC</option>
+                <option class="ºF" onselect="degreesFar('degreesf')">ºF</option>
+            </select></p>
         </div>
         <div class="weekforecast">
             <div class="column1">
                 <h2>Today</h2>
                 <img src="some_rain.png" alt="rain" class="rainimg">
                 <p>some rain</p>
-                <div class="highlows">
+                <div class="degreesc">
+                    <p class="hightemp">24º</p>
+                    <p class="lowtemp">18º</p>
+                </div>
+                <div class="degreesf">
                     <p class="hightemp">75º</p>
                     <p class="lowtemp">65º</p>
                 </div>
@@ -48,7 +52,11 @@
                 <h2>Tomorrow</h2>
                 <img src="some_sun.png" alt="sunny" class="sunimg">
                 <p>some sun</p>
-                <div class="highlows">
+                <div class="degreesc">
+                    <p class="hightemp">27º</p>
+                    <p class="lowtemp">19º</p>
+                </div>
+                <div class="degreesf">
                     <p class="hightemp">80º</p>
                     <p class="lowtemp">66º</p>
                 </div> 
@@ -57,7 +65,11 @@
                 <h2>Friday</h2>
                 <img src="some_clouds.png" alt="cloudy" class="cloudimg">
                 <p>some clouds</p>
-                <div class="highlows">
+                <div class="degreesc">
+                    <p class="hightemp">21º</p>
+                    <p class="lowtemp">16º</p>
+                </div>
+                <div class="degreesf">
                     <p class="hightemp">69º</p>
                     <p class="lowtemp">61º</p>
                 </div>
@@ -66,12 +78,17 @@
                 <h2>Saturday</h2>
                 <img src="some_sun.png" alt="sunny" class="sunimg">
                 <p>some sun</p>
-                <div class="highlows">
+                <div class="degreesc"onselect="degreesCel()">
+                    <p class="hightemp">26º</p>
+                    <p class="lowtemp">21º</p>
+                </div>
+                <div class="degreesf" onselect="degreesFar()">
                     <p class="hightemp">78º</p>
                     <p class="lowtemp">70º</p>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
