@@ -81,11 +81,30 @@
     color: #377fe4;
 }
 #message{
-    width: inherit;
+    width: 800px;
     border: 2px solid black;
     position: fixed;
-    bottom: 80px;
+    bottom: 150px;
     color: black;
     background-color: #eeeeee;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.maininfo{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header{
+    padding-left: 195px;
+}
+.acceptbtn{
+    width: 75px;
+    height: 35px;
+    background-color: #377fe4;
+    color: black;
+}
+.cookieimg{
+    height: 75px;
 }
