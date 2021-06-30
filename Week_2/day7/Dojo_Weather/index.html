@@ -29,9 +29,9 @@
         </div>
         <div class="sanjoseweather">
             <h2>San Jose</h2>
-            <p>show temperature in <select name="temperature">
-                <option class="ºC" onselect="degreesCel('degreesc')">ºC</option>
-                <option class="ºF" onselect="degreesFar('degreesf')">ºF</option>
+            <p>show temperature in <select name="temperature" onchange="changetemp(this)">
+                <option>ºC</option>
+                <option>ºF</option>
             </select></p>
         </div>
         <div class="weekforecast">
@@ -39,52 +39,36 @@
                 <h2>Today</h2>
                 <img src="some_rain.png" alt="rain" class="rainimg">
                 <p>some rain</p>
-                <div class="degreesc">
-                    <p class="hightemp">24º</p>
-                    <p class="lowtemp">18º</p>
-                </div>
-                <div class="degreesf">
-                    <p class="hightemp">75º</p>
-                    <p class="lowtemp">65º</p>
+                <div class="difftemp">
+                    <p class="hightemp" id="degrees1">24º</p>
+                    <p class="lowtemp"id="degrees2">18º</p>
                 </div>
             </div>
             <div class="column2">
                 <h2>Tomorrow</h2>
                 <img src="some_sun.png" alt="sunny" class="sunimg">
                 <p>some sun</p>
-                <div class="degreesc">
-                    <p class="hightemp">27º</p>
-                    <p class="lowtemp">19º</p>
+                <div class="difftemp">
+                    <p class="hightemp" id="degrees3">27º</p>
+                    <p class="lowtemp"id="degrees4">19º</p>
                 </div>
-                <div class="degreesf">
-                    <p class="hightemp">80º</p>
-                    <p class="lowtemp">66º</p>
-                </div> 
             </div>
             <div class="column3">
                 <h2>Friday</h2>
                 <img src="some_clouds.png" alt="cloudy" class="cloudimg">
                 <p>some clouds</p>
-                <div class="degreesc">
-                    <p class="hightemp">21º</p>
-                    <p class="lowtemp">16º</p>
-                </div>
-                <div class="degreesf">
-                    <p class="hightemp">69º</p>
-                    <p class="lowtemp">61º</p>
+                <div class="difftemp">
+                    <p class="hightemp"id="degrees5">21º</p>
+                    <p class="lowtemp"id="degrees6">16º</p>
                 </div>
             </div>
             <div class="column4">
                 <h2>Saturday</h2>
                 <img src="some_sun.png" alt="sunny" class="sunimg">
                 <p>some sun</p>
-                <div class="degreesc"onselect="degreesCel()">
-                    <p class="hightemp">26º</p>
-                    <p class="lowtemp">21º</p>
-                </div>
-                <div class="degreesf" onselect="degreesFar()">
-                    <p class="hightemp">78º</p>
-                    <p class="lowtemp">70º</p>
+                <div class="difftemp">
+                    <p class="hightemp"id="degrees7">26º</p>
+                    <p class="lowtemp"id="degrees8">21º</p>
                 </div>
             </div>
         </div>

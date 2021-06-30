@@ -78,7 +78,7 @@
     height:150px;
     border-radius: 50%;
 }
-.degreesc{
+.difftemp{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -86,15 +86,7 @@
     margin-bottom: 50px;
     font-weight: bold;
     padding-top: 30px;
-}
-.degreesf{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    vertical-align: top;
-    margin-bottom: 50px;
-    font-weight: bold;
-    padding-top: 30px;
+
 }
 .hightemp{
     color: #d13532;
