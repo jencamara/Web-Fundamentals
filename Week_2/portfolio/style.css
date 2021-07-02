@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+}
+.navigationbar{
+    width: 1000px;
+    height: 50px;
+    margin-top: 25px;
+    border-bottom: 2px solid #b67c47;
+    margin-left: 100px;
+    justify-content: space-between;
+    display: flex;
+    color: #504d46;
+}
+.navlinks{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+.navsection{
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 10px;
+    color: #504d46;
+}
+
+.header{
+    width: 900px;
+    height: 60px;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    background-color: #bfbfbf;
+    color: #504d46
+}
+.myinfo{
+    width: 1000px;
+    height: 400px;
+    margin-left: 100px;
+    border-left: 2px solid #b67c47;
+    border-right: 2px solid #b67c47;
+    margin-top: 25px;
+    background-color: white
+}
+.box1{
+    width: 900px;
+    height:275px;
+    display: flex;
+    margin-left: 50px;
+    background-color: white;
+}
+.column1{
+    width: 225px;
+    height: 200px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.column2{
+    width: 425px;
+    height: 150px;
+    background-color: #bfbfbf;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 75px;
+    margin-top: 40px;
+    color: #626f70;
+    
+}
+.box2{
+    width: 900px;
+    height:110px;
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #bfbfbf;
+    color: #504d46;
+}
+.jenimg{
+    height:225px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.workhighlights{
+    width: 1000px;
+    height: 600px;
+    margin-top: 40px;
+    border-top: 2px solid #b67c47;
+    border-bottom: 2px solid #b67c47;
+    margin-left: 100px;
+    justify-content: space-between;
+    color: #504d46;
+}
+.box3{
+    width: 900px;
+    height: 60px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    background-color: #bfbfbf;
+    color: #504d46
+}
+.box4{
+    width: 900px;
+    height: 400px;
+    margin-left: 50px;
+    border-left: 2px solid #b67c47;
+    border-right: 2px solid #b67c47;
+    margin-top: 25px;
+    background-color: #b67c47;
+}
